@@ -20,14 +20,8 @@
             <div class="form-group">
                 <label for="login">Identifiant :</label>
                 <input type="text" name="login" id="login" required>
-            </div>
-
-            <div class="form-group">
                 <label for="password">Mot de passe :</label>
                 <input type="password" name="password" id="password" required>
-            </div>
-
-            <div class="form-group checkbox">
                 <label>
                     <input type="checkbox" name="admin" value="1">
                     Connexion admin
