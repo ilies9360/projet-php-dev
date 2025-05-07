@@ -1,4 +1,4 @@
-<?php require_once('./controller/controllerForm.php'); ?>
+<div id="phpc"><?php require_once('./controller.php'); ?></div>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -9,13 +9,6 @@
 <body>
     <div class="container">
         <h2>Connexion</h2>
-
-        <?php if (!empty($message)) : ?>
-            <div class="message <?php echo $success ? 'success' : 'error'; ?>">
-                <?php echo $message; ?>
-            </div>
-        <?php endif; ?>
-
         <form method="POST" action="">
             <div class="form-group">
                 <label for="login">Identifiant :</label>
